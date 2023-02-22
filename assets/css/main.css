@@ -2655,7 +2655,8 @@ input, select, textarea {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		/* border-top: solid 3px #f4f4f4; */
+		border-top: solid 3px #70c2f8;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
