@@ -98,11 +98,12 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #000000;
 		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 400;
-		line-height: 1.75em;
+		/* line-height: 1.75em; */
+		line-height: 1.25em;
 	}
 
 	a {
@@ -121,7 +122,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
+		color: #1f63f5;
 		font-weight: 700;
 	}
 
@@ -134,17 +135,18 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		/* color: #777; */
+		color: #076d07;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			border: 0;
-			color: inherit;
-			text-decoration: none;
-		}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		border: 0;
+		color: inherit;
+		text-decoration: none;
+	}
 
 	h2 {
 		font-size: 2em;
@@ -157,16 +159,19 @@ input, select, textarea {
 	}
 
 	h4 {
+		color: #70c2f8;
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
 	h5 {
+		color: #70c2f8;
 		font-size: 0.9em;
 		line-height: 1.5em;
 	}
 
 	h6 {
+		color: #70c2f8;
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
@@ -1787,8 +1792,8 @@ input, select, textarea {
 	header.major h2 {
 		/* color: #4acaa8; */
 		color: #f55e22;
-
-		font-size: 3.5em;
+		/* font-size: 3.5em; */
+		font-size: 2.2em;
 	}
 
 		header.major h2 + p {
@@ -2216,20 +2221,24 @@ input, select, textarea {
 		list-style: decimal;
 		margin: 0 0 2.25em 0;
 		padding-left: 1.25em;
+		/* line-height: 1em; */
 	}
 
 		ol li {
 			padding-left: 0.25em;
+			/* line-height: 1em; */
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2.25em 0;
 		padding-left: 1em;
+		line-height: 1.1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			line-height: 1.1em;
 		}
 
 		ul.alt {
