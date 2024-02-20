@@ -126,6 +126,11 @@ input, select, textarea {
 		font-weight: 700;
 	}
 
+	strong2, b {
+		color: #70c2f8;
+		font-weight: 700;
+	}
+
 	em, i {
 		font-style: italic;
 	}
