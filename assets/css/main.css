@@ -129,7 +129,8 @@ input, select, textarea {
 	}
 
 	strong2, b {
-		color: #70c2f8;
+		/* color: #70c2f8; */
+		color: red;
 		font-weight: 700;
 	}
 
@@ -166,19 +167,19 @@ input, select, textarea {
 	}
 
 	h4 {
-		color: #70c2f8;
+		/* color: #70c2f8; */
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
 	h5 {
-		color: #70c2f8;
+		/* color: #70c2f8; */
 		font-size: 0.9em;
 		line-height: 1.5em;
 	}
 
 	h6 {
-		color: #70c2f8;
+		/* color: #70c2f8; */
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
