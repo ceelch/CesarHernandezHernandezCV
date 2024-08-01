@@ -47,6 +47,7 @@ blockquote, q {
 	}
 
 table {
+	border: 1px solid #f56e30;
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -2475,7 +2476,8 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 2px #f4f4f4;
+			/* border: solid 2px #f4f4f4; */
+			border: solid 2px #f56e30;
 			border-left: 0;
 			border-right: 0;
 		}
