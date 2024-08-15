@@ -2732,7 +2732,8 @@ input, select, textarea {
 		justify-content: space-between;
 		/* background: #4acaa8; */
 		/* background: #70c2f8; */
-		background: #010508;
+		/* background: #010508; */
+		background: linear-gradient(to right, rgb(17, 126, 53) , rgb(16, 110, 252));;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2876,7 +2877,9 @@ input, select, textarea {
 
 	#footer {
 		/* background: #fafafa; */
-		background: #f56e30;
+		/* background: #f56e30; */
+		/* background: linear-gradient(to right, red, blue); */
+		background: radial-gradient(rgb(241, 43, 43),rgb(231, 171, 176));
 		border-top: 0;
 		/* color: #c0c0c0; */
 		color: #fff;
